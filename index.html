@@ -779,13 +779,13 @@ document.getElementById('pricePopup').addEventListener('click', function(e){
 
 /* ── Google Ads Conversion Tracking ── */
 (function(){
-  const ADS_SEND_TO = 'AW-XXXXXXXXXXX/XXXXXXXXXXXXXXXXXXXXX';
+  const ADS_SEND_TO = 'AW-XXXXXXXXXXX/vV8ZCOKaw_0bELHR0flC';
 
   function fireConversion(label, callback){
     try{
       if(typeof gtag === 'function'){
-        gtag('event', 'whatsapp_click', {
-          event_category: 'engagement',
+        gtag('event', 'whatsapp_mensajes', {
+          event_category: 'Contacto',
           event_label: label || 'whatsapp',
           transport_type: 'beacon'
         });
